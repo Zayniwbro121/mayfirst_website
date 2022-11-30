@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  background: url(../img/Group\ 15.png);
+  width: 100%;
+  background-color: white;
+}
+.container .novbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 70px;
+}
+.container .nov-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+}
+.container .nov-links a {
+  color: black;
+}
+.container button {
+  padding: 15px 40px;
+  border-radius: 10px 0px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+}
+.container .header {
+  width: 100%;
+}
+.container .header .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .header .box .card1 {
+  height: 100vh;
+}
+.container .header .box .card1 .rasm {
+  padding: 0px 25px;
+}
+.container .header .box .card1 .soz h1 {
+  font-size: 55px;
+  font-weight: 500;
+  padding: 25px 85px;
+}
+.container .header .box .card1 p {
+  padding: 50px 85px;
+  word-spacing: 10px;
+}
+.container .header .box .card1 .but {
+  padding: 25px 85px;
+  display: flex;
+  gap: 15px;
+}
+.container .header .box .card1 .but .but1 button {
+  background-color: black;
+  color: white;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+}
+.container .header .box .card1 .but .but2 button {
+  color: white;
+  box-shadow: 25px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+}
+.container .header .box .card1 .icon {
+  padding: 25px 85px;
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+.container .header .box .card1 .icon .rasm1 img {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px black solid;
+}
+.container .header .box .card1 .icon .rasm2 img {
+  position: absolute;
+  padding: 4px 4px;
+  border-radius: 50%;
+  border: 1px black solid;
+}
+.container .header .box .card1 .icon .rasm3 img {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px black solid;
+}
+.container .header .box .card2 img {
+  height: 100vh;
+  padding-right: 95px;
+  padding-top: 100px;
+}/*# sourceMappingURL=main.css.map */
